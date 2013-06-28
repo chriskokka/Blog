@@ -1,0 +1,13 @@
+Blog
+
+
+This is a simple blog engine written in Java using Play Framework 2.1.
+User registration is available and needed to create posts.
+The recent posts will be displayed on the front page of the blog and there
+are separate pages for editing/deleting posts and also for adding new ones.
+
+Passwords are stored without any hashing in the database. Since this project
+uses the h2 in memory database it does not matter that much. For production
+of course it is necessary to create hashing and salting.
+
+Author: Chris Kokka 2013
